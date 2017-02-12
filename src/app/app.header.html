@@ -1,0 +1,47 @@
+
+
+<nav class="grey darken-2 white-text">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a routerLink="/Welcome" class="flow-text flex-title weight-500">Logo here</a>
+      <a href="#" materialize="sideNav" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li>
+           <a href="#" data-activates="slide-out" class="" materialize="sideNav" [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: false}]"><i class="material-icons white-text">more_vert</i></a>
+        </li>
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="white-text" routerLink="/Properties">Properties</a></li>
+        <li><a class="white-text" routerLink="/Citizenship">Citizenship</a></li>
+        <li><a class="white-text" routerLink="/About">About</a></li>
+        <li><a class="white-text" routerLink="/Contact">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li class="bold"><a routerLink="/Welcome" class="flow-text waves-effect"><i class="material-icons">home</i>Home</a></li>
+        <li class="bold"><a routerLink="/Properties" class="flow-text waves-effect"><i class="material-icons">language</i>Properties</a></li>
+        <li class="bold"><a routerLink="/Citizenship" class="flow-text waves-effect"><i class="material-icons">language</i>Citizenship</a></li>
+        <li class="bold"><a routerLink="/About" class="flow-text waves-effect"><i class="material-icons">trending_up</i>About</a></li>
+        <li class="bold"><a class="waves-effect"><i class="material-icons">settings</i>Contact</a></li>
+      </ul>
+
+      <ul id="slide-out" class="side-nav">
+<!--       <li>
+        <div class="userView">
+          <div class="background">
+            <img src="/public/images/background-sidenav.png">
+          </div>
+          <a href="#!user"><img class="circle" src="/public/images/circle.png"></a>
+          <a><span class="white-text name flow-text">John Doe</span></a>
+          <a><span class="white-text email">jdandturk@gmail.com</span></a>
+        </div>
+      </li> -->
+      <li class="bold"><a routerLink="/Welcome" class="flow-text waves-effect"><i class="material-icons">home</i> Home</a></li>
+      <li class="bold"><a routerLink="/Properties" class="flow-text waves-effect"><i class="material-icons">language</i> Properties</a></li>
+      <li class="bold"><a routerLink="/Citizenship" class="flow-text waves-effect"><i class="material-icons">trending_up</i>Citizenship</a></li>
+      <li class="bold"><a routerLink="/About" class="waves-effect"><i class="material-icons">settings</i>About</a></li>
+      <li class="bold"><a routerLink="/Contact" class="waves-effect"><i class="material-icons">settings</i>About</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+        
